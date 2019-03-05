@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="no"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- <svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+
+<circle cx="100" cy="50" r="40" stroke="black"
+stroke-width="2" fill="red"/>
+
+</svg> -->
+<svg width="1024px" height="416px"  version="1.1" style="border:1px dashed blue" xmlns="http://www.w3.org/2000/svg">
+	
+	<!-- 辅助线 -->
+	<line x1="32" y1="52" x2="988" y2="52" stroke="rgb(198,192,192)" stroke-width="4"/>
+	<line x1="32" y1="96" x2="988" y2="96" stroke="rgb(226,202,208)" stroke-width="6"/>
+	<line x1="32" y1="265" x2="988" y2="265" stroke="rgb(226,202,208)" stroke-width="6"/>
+	<line x1="32" y1="382" x2="988" y2="382" stroke="rgb(226,202,208)" stroke-width="6"/>
+	<!-- 颜团子的草 -->
+	<!-- 左侧 -->
+	<!-- <polygon points="148,79 147,76 133,69 132,68 131,68 114,68 100,76 100,85 114,95 132,95 148,88 148,79" fill="#8be453" stroke="#735d38" stroke-width="4"/> -->
+	<path d="M 149 78 C 75 30, 90 135, 149 79" stroke="#735d38" stroke-width="4" fill="#8be453"/>
+	<!-- 右侧 -->
+	<!-- <polygon points="148,79 174,53 192,61 192,72 174,86 173,87 154,86  148,79" fill="#8be453" stroke="#735d38" stroke-width="4"/> -->
+	<path d="M 149 78 C 215 5, 195 125, 149 79" stroke="#735d38" stroke-width="4" fill="#8be453"/>
+	<!-- 草根 -->
+	<!-- <polygon points="150,85 150,89 150,94 150,98" fill="#735d38" stroke="#735d38" stroke-width="4"/> -->
+	<path d="M 149 80 C 151 90, 151 80, 150 98" stroke="#735d38" stroke-width="4" fill="none"/>
+	<!-- 脸 -->
+	<!-- <rect x="46" y="100"  width="150" height="170" style="stroke:rgb(26,202,8);stroke-width:1;fill:#8be453;z-index:3"/> -->
+	<!-- <ellipse cx="148" cy="167" rx="80" ry="67" style="fill:white;stroke:#735d38;stroke-width:4"/> -->
+	<!-- <circle cx="148" cy="192" r="92" stroke="#735d38" stroke-width="4" fill="transparent"/> -->
+	<!-- 障碍物 -->
+	<!-- <circle cx="148" cy="270" r="55" stroke="white" stroke-width="4" fill="white"/> -->
+	<!-- 脸 -->
+	
+	<path d="M 117 275 C -10 225, 70 95, 151 98 C 230 90, 310 220, 198 275" stroke="#735d38" stroke-width="4" fill="white"/>
+	
+	<!-- 左眼 -->
+	<circle cx="119" cy="185" r="8" stroke="#684432" stroke-width="4" fill="#953d38"/>
+	<!-- 右眼 -->
+	<circle cx="190" cy="185" r="8" stroke="#684432" stroke-width="4" fill="#953d38"/>
+	<!-- 嘴巴 -->
+	<circle cx="145" cy="187" r="8" stroke="#64574e" stroke-width="4" fill="transparent"/>
+	<circle cx="160" cy="187" r="8" stroke="#64574e" stroke-width="4" fill="transparent"/>
+	<!-- 障碍物 -->
+	<circle cx="153" cy="174" r="10" stroke="white" stroke-width="4" fill="white"/>
+	<!-- 脸的下半部分 -->
+	<!-- <line x1="90" y1="265" x2="205" y2="265" stroke="#735d38" stroke-width="4" /> -->
+	<!-- <polyline  points="90,264 98,268 120,272 142,273 178,272 198,268 206,264" fill="white" stroke="#735d38" stroke-width="4"/>
+	<rect x="110" y="264"  width="80" height="10" stroke="white" stroke-width="4" fill="white" /> -->
+	<!-- <line x1="90" y1="264" x2="98" y2="268" stroke="#735d38" stroke-width="4" />
+	<line x1="198" y1="268" x2="206" y2="264" stroke="#735d38" stroke-width="4" />
+	<line x1="98" y1="268" x2="100" y2="269" stroke="#735d38" stroke-width="4" />
+	<line x1="196" y1="269" x2="198" y2="268" stroke="#735d38" stroke-width="4" /> -->
+	<!-- 左胳膊 -->
+	<!-- <circle cx="87" cy="299" r="10" stroke="#735d38" stroke-width="4" fill="white"/>
+	<rect x="84" y="289" rx="5" ry="5" width="13" height="13" stroke="white" stroke-width="4" fill="white"/>
+	<line x1="81" y1="291" x2="100" y2="269" stroke="#735d38" stroke-width="4" />
+	<line x1="95" y1="306" x2="106" y2="292" stroke="#735d38" stroke-width="4" /> -->
+	<path d="M 100 269 C 51 300, 95 325, 105 290" stroke="#735d38" stroke-width="4" fill="none"/>
+	<!-- 左侧身体 -->
+	<!-- <polyline points="106,292 104,359 110,373 123,380 132,367" fill="white" stroke="#735d38" stroke-width="4"/> -->
+	
+  <path d="M 104 290 C 112 310, 90 420, 132 367" stroke="#735d38" stroke-width="4" fill="none"/>
+	<!-- 右胳膊 -->
+	<!-- <circle cx="220" cy="295" r="12" stroke="#735d38" stroke-width="4" fill="white"/>
+	<rect x="207" y="281" rx="4" ry="4" width="15" height="15" stroke="white" stroke-width="4" fill="white"/>
+	<line x1="207" y1="265" x2="232" y2="291" stroke="#735d38" stroke-width="4" />
+	<line x1="203" y1="292" x2="209" y2="300" stroke="#735d38" stroke-width="4" /> -->
+	<path d="M 203 270 C 260 300, 220 325, 203 293" stroke="#735d38" stroke-width="4" fill="none"/>
+	<!-- 右侧身体 -->
+	<!-- <polyline points="202,291 202,368 188,382 180,377 178,365" fill="white" stroke="#735d38" stroke-width="4"/> -->
+	<path d="M 202 288 C 212 320, 210 420, 178 365" stroke="#735d38" stroke-width="4" fill="none"/>
+	<!-- 腿 -->
+	<!-- <polyline points="124,361 156,366 185,360" fill="white" stroke="#735d38" stroke-width="4"/> -->
+	<path d="M 124 361 C 148 374, 164 374, 185 360" stroke="#735d38" stroke-width="4" fill="none"/>
+	
+	<!-- 腮红 -->
+	<!-- <circle cx="109" cy="205" r="5" stroke="#fad5cf" stroke-width="4" fill="#fad5cf"/>
+	<circle cx="115" cy="205" r="5" stroke="#fad5cf" stroke-width="4" fill="#fad5cf"/> -->
+	<ellipse cx="150" cy="175" rx="10" ry="5" stroke="#fad5cf" stroke-width="4" fill="#fad5cf" style="transform:rotate(15deg)" />	
+	<ellipse cx="150" cy="255" rx="10" ry="5" stroke="#fad5cf" stroke-width="4" fill="#fad5cf" style="transform:rotate(-15deg)"/>
+	 <!-- <path d="M109 200 C 70 200, 110 230, 109 200" stroke="#fad5cf" stroke-width="3" fill="#fad5cf"/> -->
+  <!-- <path d="M70 10 C 70 20, 120 20, 120 10" stroke="#735d38" stroke-width="3" fill="none"/>
+  <path d="M130 10 C 120 20, 180 20, 170 10" stroke="#735d38" stroke-width="3" fill="none"/>
+  <path d="M10 60 C 20 80, 40 80, 50 60" stroke="#735d38" stroke-width="3" fill="none"/>
+  <path d="M70 60 C 70 80, 110 80, 110 60" stroke="#735d38" stroke-width="3" fill="none"/>
+  <path d="M130 60 C 120 80, 180 80, 170 60" stroke="#735d38" stroke-width="3" fill="none"/>
+  <path d="M10 110 C 20 140, 40 140, 50 110" stroke="#735d38" stroke-width="3" fill="none"/>
+  <path d="M70 110 C 70 140, 110 140, 110 110" stroke="#735d38" stroke-width="3" fill="none"/>
+  <path d="M130 110 C 120 140, 180 140, 170 110" stroke="#735d38" stroke-width="3" fill="none"/> -->
+</svg>
