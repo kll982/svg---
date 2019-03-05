@@ -10,7 +10,7 @@ xmlns="http://www.w3.org/2000/svg">
 stroke-width="2" fill="red"/>
 
 </svg> -->
-<svg width="1024px" height="416px"  version="1.1" style="border:1px dashed blue" xmlns="http://www.w3.org/2000/svg">
+<svg width="1024px" height="416px"  version="1.1" style="border:1px dashed blue;background:white;" xmlns="http://www.w3.org/2000/svg">
 	
 	<!-- 辅助线 -->
 	<line x1="32" y1="52" x2="988" y2="52" stroke="rgb(198,192,192)" stroke-width="4"/>
